@@ -1,0 +1,195 @@
+@media (max-width: 700px) { /* media query */
+    .nome {
+        display: flex;
+        text-align: center;
+        padding-left: 100px;
+    }
+
+    h2 {
+        color: royalblue;
+    }
+
+    h4 {
+        color: royalblue;
+    }
+
+    .menu-principal {
+        flex-direction: column;
+        width: 100%;
+        font-size: 25px;
+        padding: 10px;
+        text-align: center;
+    }
+    .fotodog {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .nome {
+        padding-right: 100px;
+    }
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background: #d4d4d4(54,77,204);
+    background: linear-gradient(180deg, #acacac 0%, #4d4d4d  100%);
+}
+
+.nome {
+    font-family: sans-serif;
+    color: #4d4d4d;
+    background-color: goldenrod;
+    justify-content: flex-start;
+    width: 90%;
+    padding-top: 10px;
+    align-items: flex-start;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    align-content: stretch;
+}
+
+.nome:hover {
+    font-size: 25px;
+    transition: 100ms;
+    cursor: pointer;
+}
+
+.nome::selection {
+    color: goldenrod;
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    flex-wrap: wrap;
+    font-size: 22.5px;
+    box-shadow: 0 0 12px #333;
+}
+
+.menu-principal {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 20px;
+    justify-content: space-around;
+    background-color: #4d4d4d;
+    border-radius: 0 0 15px 15px;
+}
+
+.botao {
+    color: #4d4d4d;
+    text-align: center;
+    background-color: goldenrod;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.botao::selection {
+    color: goldenrod;
+    background-color: #333;
+}
+
+button {
+    color: #333;
+    transition-duration: 1ms;
+    transform: scale(1.2);
+}
+
+.botao:hover {
+    background-color: skyblue;
+    transform: scale(1.2);
+}
+
+.texto {
+    margin-top: 15px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2::selection {
+    color: goldenrod;
+    background-color: #333;
+}
+
+h4::selection {
+    color: goldenrod;
+    background-color: #333;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.fotodog {
+    display: flex;
+    align-content: center;
+    transition: 0.5s;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.fotodog:hover {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+
+img {
+    border-radius:15px;
+    display: flex;
+    width: 250px;
+    margin: 15px;
+    margin-left: 35px;
+    padding-top: 25px;
+    flex-flow: column wrap;
+}
+
+img::selection {
+    background-color: goldenrod;
+}
+
+.footer {
+    display: flex;
+    margin-top: 298px;
+    text-align: center;
+    color: #333;
+    background-color: goldenrod;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-size: 110%;
+    border-radius:15px 15px 0 0;
+}
+
+.footer::selection {
+    color: goldenrod;
+    background-color: #333;
+}
